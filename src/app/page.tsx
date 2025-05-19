@@ -16,8 +16,6 @@ import Price from "@/components/landing/Price";
 import Contact from "@/components/landing/Contact";
 import arrowDrawnDown from "@/assets/arrow-drawn-down.svg";
 import Footer from "@/components/ui/Footer";
-import { useScrollFromSearchParam } from "@/hooks/useScrollFromSearchParam";
-
 export default function Home() {
   return (
     <div>

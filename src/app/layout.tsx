@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { useScrollFromSearchParam } from "@/hooks/useScrollFromSearchParam";
 import { ScrollHandler } from "@/components/ui/ScrollHandler";
 
 const inter = Inter({
