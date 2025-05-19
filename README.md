@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Warranty Vault
 
-## Getting Started
+![No Redistribution](https://img.shields.io/badge/license-No%20Redistribution-red)
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Description](#description)
+- [Usage](#usage)
+- [Questions](#questions)
+- [License](#license)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Description
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Warranty Vault is a web application for Facilities Operators to track information on fittings, equipment, appliances or virtually anything.
+Our smart tags make it easy for your staff and contractors to get the information they need fast and make updates on the spot.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+#### Features:
 
-## Learn More
+- Warranty Tracking
+- Maintenance details
+- File Attachments
+- Custom Forms
+- Compliance Reports
+- Inventory Management
+- Analytics
 
-To learn more about Next.js, take a look at the following resources:
+## Usage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Clone this repository:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+`$ git clone https://github.com/markwilson107/warranty-vault.git`
 
-## Deploy on Vercel
+Install dependencies:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+`$ npm install`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+To start the application run:
+
+`$ npm run dev`
+
+Runs the app in the development mode.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+#### or
+
+Demo deployed application: www.warrantyvault.io
+
+## Questions
+
+If you have any questions feel free to contact me here:
+
+##### Github: [github.com/markwilson107](https://github.com/markwilson107)
+
+##### Email: [markashwilson@gmail.com](mailto:markashwilson@gmail.com?subject=[GitHub])
+
+## License
+
+Copyright © 2025 Mark Wilson
+
+All rights reserved.
+
+This code is made publicly available for educational review purposes only. 
+You may not copy, modify, distribute, sublicense, or use this software for commercial purposes without explicit permission from the author.
