@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { ScrollHandler } from "@/components/ui/ScrollHandler";
+
 
 const inter = Inter({
   subsets: ["latin"],
@@ -19,7 +19,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <ScrollHandler />
       <body className={`${inter.className} antialiased`}>{children}</body>
     </html>
   );

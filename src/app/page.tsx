@@ -16,10 +16,12 @@ import Price from "@/components/landing/Price";
 import Contact from "@/components/landing/Contact";
 import arrowDrawnDown from "@/assets/arrow-drawn-down.svg";
 import Footer from "@/components/ui/Footer";
+import { ScrollHandler } from "@/components/ui/ScrollHandler";
 export default function Home() {
   return (
     <div>
       <main>
+        <ScrollHandler />
         <Header />
         <Banner />
         <Section type="tight" className="flex flex-col items-center py-10 z-10">
@@ -48,7 +50,7 @@ export default function Home() {
           </div>
 
           {/* Solution */}
-          <div  id="solution" className="flex flex-col w-full">
+          <div id="solution" className="flex flex-col w-full">
             {solutions.map((solution, index) => (
               <Solution
                 key={`solution-${index}`}
