@@ -17,11 +17,14 @@ import Contact from "@/components/landing/Contact";
 import arrowDrawnDown from "@/assets/arrow-drawn-down.svg";
 import Footer from "@/components/ui/Footer";
 import { ScrollHandler } from "@/components/ui/ScrollHandler";
+import { Suspense } from "react";
 export default function Home() {
   return (
     <div>
       <main>
-        <ScrollHandler />
+        <Suspense fallback={null}>
+          <ScrollHandler />
+        </Suspense>
         <Header />
         <Banner />
         <Section type="tight" className="flex flex-col items-center py-10 z-10">
