@@ -19,6 +19,7 @@ function Price({ price, index }: { price: Price; index: number }) {
         <span className="ml-2 text-base">{price.priceFrequency}</span>
       </p>
       <Button
+      href="/register"
         variant={price.varient === "light" ? "secondary" : "primary"}
         className="w-36 mt-5"
       >

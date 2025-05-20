@@ -32,7 +32,7 @@ function Solution({
         <div className="flex flex-col py-8 md:py-20 w-full md:w-4/9 max-w-[500px] md:max-w-full ">
           <h2 className="font-bold text-2xl sm:text-3xl">{solution.title}</h2>
           <div>
-            <Button className="mt-6">{solution.buttonText}</Button>
+            <Button href="/register" className="mt-6">{solution.buttonText}</Button>
           </div>
         </div>
       </div>

@@ -48,7 +48,12 @@ const Header = () => {
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center ml-16 space-x-6 lg:space-x-8">
           {navLinks.map((link, index) => (
-            <Link key={`nav-link-${index}`} href={link.searchParam || link.url} className="" scroll={!link.searchParam}>
+            <Link
+              key={`nav-link-${index}`}
+              href={link.searchParam || link.url}
+              className=""
+              scroll={!link.searchParam}
+            >
               {link.title}
             </Link>
           ))}
@@ -56,12 +61,7 @@ const Header = () => {
 
         {/* CTA Buttons */}
         <div className="hidden md:flex ml-auto items-center space-x-4">
-          <Button
-            href="/register"
-            variant="primary"
-            size="sm"
-            className="w-30"
-          >
+          <Button href="/register" variant="primary" size="sm" className="w-30">
             Get Started
           </Button>
           <Button href="/login" variant="outline" size="sm" className="w-30">
@@ -109,13 +109,18 @@ const Header = () => {
       >
         <div className="py-2">
           <nav className="flex flex-col space-y-3 px-4 pt-2">
-          {navLinks.map((link, index) => (
-            <Link key={`nav-link-mobile-${index}`} href={link.url} className="text-lg">
-              {link.title}
-            </Link>
-          ))}
+            {navLinks.map((link, index) => (
+              <Link
+                key={`nav-link-${index}`}
+                href={link.searchParam || link.url}
+                scroll={!link.searchParam}
+                className="text-lg"
+              >
+                {link.title}
+              </Link>
+            ))}
             <div className="flex gap-3 mt-2 mb-2">
-              <Button href="/get-started" variant="primary" size="sm" fullWidth>
+              <Button href="/register" variant="primary" size="sm" fullWidth>
                 Get Started
               </Button>
               <Button href="/login" variant="outline" size="sm" fullWidth>

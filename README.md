@@ -43,7 +43,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 #### or
 
-Demo deployed application: www.warrantyvault.io
+Demo deployed application: https://warrantyvault.io
 
 ## Questions
 
