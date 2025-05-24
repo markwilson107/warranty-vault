@@ -14,7 +14,7 @@ function RegisterForm() {
   const [errors, setErrors] = useState({});
 
   return (
-    <form className="flex flex-col gap-4">
+    <form className="flex flex-col gap-4 w-full">
       <InputField
         id="name"
         label="Name"
